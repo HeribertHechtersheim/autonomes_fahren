@@ -1,0 +1,657 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"coordina",
+				"coordinate_list"
+			],
+			[
+				"cen",
+				"centroids"
+			],
+			[
+				"ce",
+				"centroids"
+			],
+			[
+				"coordin",
+				"coordinates"
+			],
+			[
+				"in",
+				"indices"
+			],
+			[
+				"coord",
+				"coordinates"
+			],
+			[
+				"coo",
+				"coordinates-centroid"
+			],
+			[
+				"k_m",
+				"k_means"
+			],
+			[
+				"plo",
+				"plot_points"
+			],
+			[
+				"center",
+				"center"
+			],
+			[
+				"d_",
+				"d_min"
+			],
+			[
+				"with",
+				"with_replacement"
+			],
+			[
+				"eta",
+				"eta"
+			],
+			[
+				"d",
+				"d"
+			],
+			[
+				"save",
+				"save_cost"
+			],
+			[
+				"cost",
+				"cost"
+			],
+			[
+				"y_",
+				"y_scatter"
+			],
+			[
+				"x_",
+				"x_scatter"
+			],
+			[
+				"for",
+				"forward_pass"
+			],
+			[
+				"acti",
+				"activate_all"
+			],
+			[
+				"gradien",
+				"gradient_descent"
+			],
+			[
+				"training",
+				"training_x"
+			],
+			[
+				"train",
+				"training_y"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"trainig",
+				"training_x"
+			],
+			[
+				"neural",
+				"neural_network"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Aufgabe1_Gruppe04.tex",
+			"settings":
+			{
+				"buffer_size": 735,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Sections/Section1.tex",
+			"settings":
+			{
+				"buffer_size": 36,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "aufgabe1.sublime-project",
+			"settings":
+			{
+				"buffer_size": 107,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Sections/Section3.tex",
+			"settings":
+			{
+				"buffer_size": 81,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Sections/Section4.tex",
+			"settings":
+			{
+				"buffer_size": 54,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Sections/Section2.tex",
+			"settings":
+			{
+				"buffer_size": 31,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"LuaLaTeX"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"LaTeXTools: Check System ",
+				"LaTeXTools: Check system"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"XML",
+				"Indent XML"
+			],
+			[
+				"inde",
+				"Auto indent"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Herib/Documents/Uni/autonomes_fahren/Aufgabe 1",
+		"/C/Users/Herib/Documents/Uni/autonomes_fahren/Aufgabe 1/Sections"
+	],
+	"file_history":
+	[
+		"/C/Users/Herib/Documents/Uni/autonomes_fahren/Aufgabe 1/main.synctex.gz",
+		"/C/Users/Herib/Documents/MATLAB/Bachelorarbeit/thesis/thesis.sublime-project",
+		"/C/Users/Herib/Documents/MATLAB/Bachelorarbeit/thesis/Figures/pde_node_comparison.tex",
+		"/C/Users/Herib/Documents/MATLAB/Bachelorarbeit/thesis/Figures/eigenvalues.tex",
+		"/C/Users/Herib/Documents/MATLAB/Bachelorarbeit/thesis/Chapters/Chapter2.aux",
+		"/C/Users/Herib/Documents/MATLAB/Bachelorarbeit/thesis/Figures/pcg_epsi_vs_n_best_pc.eps",
+		"/C/Users/Herib/Documents/MATLAB/Bachelorarbeit/thesis/Figures/pc_comp_fixed_m.tex",
+		"/C/Users/Herib/Documents/MATLAB/Bachelorarbeit/thesis/Figures/pc_comp_fixed_epsi.tex",
+		"/C/Users/Herib/Documents/MATLAB/Bachelorarbeit/thesis/Figures/pc_comp_fixed_m",
+		"/C/Users/Herib/Documents/MATLAB/Bachelorarbeit/thesis/main.tex",
+		"/C/Users/Herib/Documents/MATLAB/Bachelorarbeit/thesis/citations.bib",
+		"/C/Users/Herib/Documents/MATLAB/Bachelorarbeit/thesis/Figures/pde_rbf_comparison.tex",
+		"/C/Users/Herib/Documents/MATLAB/Bachelorarbeit/thesis/Figures/node_comparison.tex",
+		"/C/Users/Herib/Documents/MATLAB/Bachelorarbeit/thesis/Figures/epsi_vs_n_1.tex",
+		"/C/Users/Herib/Documents/MATLAB/Bachelorarbeit/thesis/Figures/eingevalues.tex",
+		"/C/Users/Herib/Downloads/untitled (1)/Chapters/Chapter1.tex",
+		"/C/Users/Herib/Documents/MATLAB/Bachelorarbeit/thesis/Chapters/ChapterTemplate.tex",
+		"/C/Users/Herib/Documents/MATLAB/Bachelorarbeit/thesis/Figures/rbf_comparison.tex",
+		"/C/Users/Herib/Documents/MATLAB/Bachelorarbeit/thesis/MastersDoctoralThesis.cls",
+		"/C/Users/Herib/Documents/MATLAB/Bachelorarbeit/thesis/Chapters/Chapter1_old.tex",
+		"/C/Users/Herib/Documents/MATLAB/Bachelorarbeit/thesis/Chapters/Chapter3.aux",
+		"/C/Users/Herib/Documents/MATLAB/Bachelorarbeit/Interpolation/rbf_interpolation_interpolant.eps",
+		"/C/Users/Herib/Documents/MATLAB/Bachelorarbeit/Interpolation/rbf_interpolation_nodes.eps",
+		"/C/Users/Herib/Documents/MATLAB/Bachelorarbeit/Interpolation/rbf_interpolation_basis_functions.eps",
+		"/C/Users/Herib/Documents/MATLAB/Bachelorarbeit/Interpolation/rbf_interpolation_scaled_basis_functions.eps",
+		"/C/Users/Herib/OneDrive/Dokumente/ML/NN/nn.py",
+		"/C/Users/Herib/Downloads/untitled/Chapters/Chapter1.tex",
+		"/C/Users/Herib/Downloads/untitled/MastersDoctoralThesis.cls",
+		"/C/Users/Herib/Downloads/untitled (1)/main.tex",
+		"/C/Users/Herib/OneDrive/Dokumente/ML/NN/mnist_tf.py",
+		"/C/Users/Herib/OneDrive/Dokumente/ML/NN/example1.py",
+		"/C/Users/Herib/OneDrive/Dokumente/ML/NN/example2-mnist.py",
+		"/C/Users/Herib/AppData/Local/Programs/Python/Python36/Lib/site-packages/mnist/loader.py",
+		"/C/Users/Herib/OneDrive/Dokumente/ML/NN/mnist_tf_tut.py",
+		"/C/Users/Herib/OneDrive/Dokumente/ML/NN/x-means.py",
+		"/C/Users/Herib/OneDrive/Dokumente/ML/NN/n-means.py",
+		"/C/Users/Herib/AppData/Roaming/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/C/Users/Herib/Downloads/untitled/main.tex",
+		"/C/Users/Herib/Downloads/traffic.html",
+		"/C/Users/Herib/Downloads/ESP8266-master/Examples/14. WebSocket/A-WebSocket_LED_control/A-WebSocket_LED_control.ino",
+		"/C/Users/Herib/OneDrive/Desktop/data/index.html",
+		"/C/Users/Herib/OneDrive/Desktop/index.html",
+		"/C/Users/Herib/Downloads/ESP8266-master/Examples/14. WebSocket/A-WebSocket_LED_control/data/edit.html/edit.html",
+		"/C/Users/Herib/OneDrive/Desktop/serialmonitor.html",
+		"/C/Users/Herib/Downloads/ESP8266-master/Examples/14. WebSocket/A-WebSocket_LED_control/data/edit.html.gz",
+		"/C/Users/Herib/Downloads/traffic",
+		"//openHABianpi/openHAB-share/openhab2-conf/rules/rules.rules",
+		"/D/cmdline.txt",
+		"/D/config.txt",
+		"/D/wpa_supplicant.conf",
+		"/C/Users/Herib/OneDrive/Dokumente/ML/NN/mnist_tf",
+		"/C/Users/Herib/OneDrive/Dokumente/ML/NN/example1_outcome2_cost.png",
+		"/C/Users/Herib/OneDrive/Dokumente/ML/NN/example1_outcome1_cost.png",
+		"//openHABianPI/openHAB-share/openhab2-userdata/uuid",
+		"//openHABianPI/openHAB-share/openhab2-userdata/openhabcloud/secret",
+		"//openhabianpi/openHAB-conf/items/items.items",
+		"/C/Users/Herib/OneDrive/Dokumente/ML/NN/example1_outcome2.png",
+		"/C/Users/Herib/OneDrive/Desktop/configurations/items/items.items",
+		"//openHABianPI/openHAB-conf/rules/rules.rules",
+		"//192.168.178.123/Share/two/config.txt",
+		"//192.168.178.123/Share/lircd.conf",
+		"/D/openhabian.conf",
+		"/C/Users/Herib/OneDrive/Dokumente/ML/NN/simple test.py",
+		"/C/Users/Herib/OneDrive/Dokumente/ML/NN/fibo.py",
+		"/C/Users/Herib/OneDrive/Dokumente/ML/NN/test",
+		"/C/Users/Herib/Desktop/opera duolingo/background.js"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 208.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"include"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Aufgabe1_Gruppe04.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 735,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								384,
+								384
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Sections/Section1.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 36,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2,
+								2
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "aufgabe1.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								93,
+								93
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Sections/Section3.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 81,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								81
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Sections/Section4.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 54,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Sections/Section2.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 71.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 103.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.latextools":
+	{
+		"height": 125.0
+	},
+	"pinned_build_system": "",
+	"project": "aufgabe1.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Herib\\Downloads\\untitled (1)\\thesis.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 300.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
