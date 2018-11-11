@@ -1,0 +1,40 @@
+% This file was created by matlab2tikz.
+%
+%The latest updates can be retrieved from
+%  http://www.mathworks.com/matlabcentral/fileexchange/22022-matlab2tikz-matlab2tikz
+%where you can also make suggestions and rate matlab2tikz.
+%
+\definecolor{mycolor1}{rgb}{0.00000,0.44700,0.74100}%
+%
+\begin{tikzpicture}
+
+\begin{axis}[%
+width=4.521in,
+height=3.566in,
+at={(0.758in,0.481in)},
+scale only axis,
+xmin=0,
+xmax=30,
+xlabel style={font=\color{white!15!black}},
+xlabel={$\times 100$ Motor Speed},
+ymin=0.2,
+ymax=1.8,
+ylabel style={font=\color{white!15!black}},
+ylabel={$v$ in $m/s$},
+axis background/.style={fill=white},
+xmajorgrids,
+ymajorgrids
+]
+\addplot [color=mycolor1, mark=asterisk, mark options={solid, mycolor1}, forget plot]
+  table[row sep=crcr]{%
+3.5	0.378931413414172\\
+4	0.419991600167997\\
+5	0.562429696287964\\
+10	0.987166831194472\\
+15	1.26262626262626\\
+20	1.46198830409357\\
+25	1.5625\\
+30	1.67224080267559\\
+};
+\end{axis}
+\end{tikzpicture}%

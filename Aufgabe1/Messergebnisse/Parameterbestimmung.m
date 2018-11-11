@@ -1,4 +1,4 @@
-%% v(Motor Speed) gerade Strecke
+%% v(Motor Speed) gerade Strecke (alt)
 
 motorspeed=[350 400 500 1000 1500 2000 2000 2500 3000];  %Regler in Simulink
 Strecke=1;
@@ -20,20 +20,26 @@ t=[2.639 2.381  1.778 1.013 0.792 0.684 0.64 0.598 ];
 v=Strecke./t;
 
 figure
-plot(motorspeed,v,'*-');
-xlabel('Motor Speed')
-ylabel('v in m/s')
+plot(motorspeed/100,v,'*-');
+grid on
+xlabel('$\times 100$ Motor Speed','Interpreter','latex')
+ylabel('$v$ in $m/s$','Interpreter','latex')
+
+matlab2tikz('..\Figures\motor_speed.tex')
 
 
 %% Lenkwinkel(Motor Angle) stationär
 
 motorangle=[-300 -200 -100 0 100 200 300];     %Regler in Simulink
-Radwinkel=[-25 -20 -12 0 7.0 14.2 20]./180*pi;  %gemessen (rechtes Vorderrad)
+Radwinkel=[-25 -20 -12 0 7.0 14.2 20]./180*pi; %gemessen (rechtes Vorderrad)
 
 figure
-plot(motorangle,Radwinkel/pi*180);
-xlabel('Motor Angle')
-ylabel('Radwinkel in Grad')
+plot(motorangle/100,Radwinkel/pi*180,'*-');
+grid on
+xlabel('$\times 100$ Motor Angle','Interpreter','latex')
+ylabel('Radwinkel in $^\circ$','Interpreter','latex')
+
+matlab2tikz('..\Figures\motor_angle.tex')
 
 
 %Radwinkel=(Radwinkel-flipud(Radwinkel')')*0.5;
