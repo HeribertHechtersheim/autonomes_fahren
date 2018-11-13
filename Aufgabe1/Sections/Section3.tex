@@ -15,22 +15,27 @@ Falls die angenommenen Länge um $\Delta l\in\mathbb{R}$ von der wirklichen Län
 	e = \frac{\Delta l}{t_1-t_0} = \frac{\Delta l}{\frac{l}{v}} = \frac{\Delta l}{l}v
 \end{equation*}
 
-Wir gehen davon aus, dass wir die Lichtschranken im Abstand von $1m\pm1cm$ genau plaziert haben, also deshalb die Geschwindigkeit bis auf $1\%$ genau bestimmen konnten. Den Messfehler bei der Zeitmessung betrachten wir hier nicht, da er sich mit dem Oszilloskop bis auf Mikrosekunden sehr genau bestimmen ließ. Die Messergebnisse sind im folgenden Graph dargestellt:
+Wir gehen davon aus, dass wir die Lichtschranken im Abstand von $1m\pm1cm$ genau plaziert haben, also deshalb die Geschwindigkeit bis auf $1\%$ genau bestimmen konnten. Den Messfehler bei der Zeitmessung betrachten wir hier nicht, da er sich mit dem Oszilloskop bis auf Mikrosekunden sehr genau bestimmen ließ. Die Messergebnisse sind in Abbildung~\ref{fig:motor_speed} dargestellt
 
-\begin{figure}[h]
-\centering
-\input{Figures/motor_speed.tex}
-\caption[Motor Speed]{Geschwindigkeitsmessergebnisse für Simulink Stellgröße \texttt{Motor Speed}}
-\label{fig:motor_speed}
+
+
+\begin{figure}
+\begin{subfigure}{.5\textwidth}
+	\centering
+	\input{Figures/motor_speed.tex}
+	\caption[Motor Speed]{Geschwindigkeit}
+	\label{fig:motor_speed}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+	\centering
+	\input{Figures/motor_angle.tex}
+	\caption[Motor Angle]{Lenkwinkel}
+	\label{fig:motor_angle}
+\end{subfigure}
+\caption[Simulink Stellgrößen]{Messergebnisse für die Simulink Stellgrößen \texttt{Motor Speed}~(\ref{fig:motor_speed}) und \texttt{Motor Angle}~(\ref{fig:motor_angle})}
 \end{figure}
+
 
 \subsection{Lenkwinkel}
 
-Um den Lenkwinkel zu messen, haben wir die Reifenstellung auf ein Papier abgetragen und die jeweiligen Winkel mit dem Geodreieck gemessen. Aufgrund von Fehlern beim Abtragen sowie dem recht großen Spiel der Reifen bei fest gesetzten Lenkwinkel schätzen wir den Messfehler auf $\pm5^\circ$ ein. Aus den Messergebnissen kann man einen linearen Zusammenhang erahnen:
-
-\begin{figure}[h]
-\centering
-\input{Figures/motor_angle.tex}
-\caption[Motor Angle]{Lenkwinkelmessergebnisse für Simulink Stellgröße \texttt{Motor Angle}}
-\label{fig:motor_angle}
-\end{figure}
+Um den Lenkwinkel zu messen, haben wir die Reifenstellung auf ein Papier abgetragen und die jeweiligen Winkel mit dem Geodreieck gemessen. Aufgrund von Fehlern beim Abtragen sowie dem recht großen Spiel der Reifen bei fest gesetzten Lenkwinkel schätzen wir den Messfehler auf $\pm5^\circ$ ein. Aus den Messergebnissen in Abbildung~\ref{fig:motor_angle} kann man einen linearen Zusammenhang erahnen.
