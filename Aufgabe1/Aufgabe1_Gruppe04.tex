@@ -1,4 +1,4 @@
-\documentclass[DIV=13]{scrartcl}
+\documentclass[DIV=15, titlepage,10pt]{scrartcl}
 \usepackage{graphicx} % Für die Bilder zum Schwerpunkt
 % \usepackage[utf8]{inputenc} % Für Umlaute
 \usepackage[german]{babel} 
@@ -21,11 +21,19 @@
   Felix Kieckhäfer
 }
 
-\maketitle
+\publishers{%
+    \normalfont\normalsize%
+    \parbox{0.8\linewidth}{%
+      Zur Regelauslegung in der Simulationsumgebung wird ein genaues Farzeugmodell benötigt. Dafür müssen unter anderem unbekannte Systemparameter gemessen werden. Je genauer diese bestimmt werden, desto besser kann die Dynamik modelliert werden. Im Nachfolgenden werden vier Versuche beschrieben, die wir durchgeführt haben um die unbekannten Parameter zu bestimmen. 
+    }
+}
 
-\begin{abstract}
-Zur Regelauslegung in der Simulationsumgebung wird ein genaues Farzeugmodell benötigt. Dafür müssen unter anderem unbekannte Systemparameter gemessen werden. Je genauer diese bestimmt werden, desto besser kann die Dynamik modelliert werden. Im Nachfolgenden werden vier Versuche beschrieben, die wir durchgeführt haben um die unbekannten Parameter zu bestimmen. 
-\end{abstract}
+% \begin{abstract}
+% Zur Regelauslegung in der Simulationsumgebung wird ein genaues Farzeugmodell benötigt. Dafür müssen unter anderem unbekannte Systemparameter gemessen werden. Je genauer diese bestimmt werden, desto besser kann die Dynamik modelliert werden. Im Nachfolgenden werden vier Versuche beschrieben, die wir durchgeführt haben um die unbekannten Parameter zu bestimmen. 
+% \end{abstract}
+
+\maketitle[0]
+
 
 
 
