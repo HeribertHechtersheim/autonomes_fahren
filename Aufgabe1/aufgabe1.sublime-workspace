@@ -115,7 +115,7 @@
 			"file": "Aufgabe1_Gruppe04.tex",
 			"settings":
 			{
-				"buffer_size": 735,
+				"buffer_size": 828,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -135,16 +135,27 @@
 			{
 				"buffer_size": 107,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "Sections/Section3.tex",
 			"settings":
 			{
-				"buffer_size": 81,
+				"buffer_size": 3064,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "% This file was created by matlab2tikz.\n%\n%The latest updates can be retrieved from\n%  http://www.mathworks.com/matlabcentral/fileexchange/22022-matlab2tikz-matlab2tikz\n%where you can also make suggestions and rate matlab2tikz.\n%\n\\definecolor{mycolor1}{rgb}{0.00000,0.44700,0.74100}%\n%\n\\begin{tikzpicture}\n\n\\begin{axis}[%\nwidth=4.521in,\nheight=3.566in,\nat={(0.758in,0.481in)},\nscale only axis,\nxmin=0,\nxmax=30,\nxlabel style={font=\\color{white!15!black}},\nxlabel={$\\times 100$ Motor Speed},\nymin=0.2,\nymax=1.8,\nylabel style={font=\\color{white!15!black}},\nylabel={$v$ in $m/s$},\naxis background/.style={fill=white},\nxmajorgrids,\nymajorgrids\n]\n\\addplot [color=mycolor1, mark=asterisk, mark options={solid, mycolor1}, forget plot]\n  table[row sep=crcr]{%\n3.5\t0.378931413414172\\\\\n4\t0.419991600167997\\\\\n5\t0.562429696287964\\\\\n10\t0.987166831194472\\\\\n15\t1.26262626262626\\\\\n20\t1.46198830409357\\\\\n25\t1.5625\\\\\n30\t1.67224080267559\\\\\n};\n\\end{axis}\n\\end{tikzpicture}%",
+			"file": "Figures/motor_speed.tex",
+			"file_size": 952,
+			"file_write_time": 131864393919744968,
+			"settings":
+			{
+				"buffer_size": 952,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -278,11 +289,14 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Herib/Documents/Uni/autonomes_fahren/Aufgabe 1",
-		"/C/Users/Herib/Documents/Uni/autonomes_fahren/Aufgabe 1/Sections"
+		"/C/Users/Herib/Documents/Uni/autonomes_fahren/Aufgabe1",
+		"/C/Users/Herib/Documents/Uni/autonomes_fahren/Aufgabe1/Figures",
+		"/C/Users/Herib/Documents/Uni/autonomes_fahren/Aufgabe1/Sections"
 	],
 	"file_history":
 	[
+		"/C/Users/Herib/Downloads/matlab2tikz-master/src/matlab2tikz.m",
+		"/C/Users/Herib/Documents/Uni/PDE/uebung04.pdf",
 		"/C/Users/Herib/Documents/Uni/autonomes_fahren/Aufgabe 1/main.synctex.gz",
 		"/C/Users/Herib/Documents/MATLAB/Bachelorarbeit/thesis/thesis.sublime-project",
 		"/C/Users/Herib/Documents/MATLAB/Bachelorarbeit/thesis/Figures/pde_node_comparison.tex",
@@ -352,7 +366,7 @@
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -384,7 +398,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -393,15 +407,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 735,
+						"buffer_size": 828,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								384,
-								384
+								212,
+								212
 							]
 						],
 						"settings":
@@ -414,7 +428,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -430,8 +444,8 @@
 						"selection":
 						[
 							[
-								2,
-								2
+								36,
+								36
 							]
 						],
 						"settings":
@@ -442,7 +456,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -464,13 +478,14 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -479,15 +494,44 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 81,
+						"buffer_size": 3064,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								81,
-								81
+								2721,
+								2721
+							]
+						],
+						"settings":
+						{
+							"spell_check": false,
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 190.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Figures/motor_speed.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 952,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								842,
+								842
 							]
 						],
 						"settings":
@@ -495,14 +539,14 @@
 							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 114.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "Sections/Section4.tex",
 					"semi_transient": false,
 					"settings":
@@ -526,11 +570,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "Sections/Section2.tex",
 					"semi_transient": false,
 					"settings":
@@ -554,7 +598,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -627,7 +671,7 @@
 		[
 			[
 				"",
-				"C:\\Users\\Herib\\Downloads\\untitled (1)\\thesis.sublime-project"
+				"C:\\Users\\Herib\\Documents\\MATLAB\\Bachelorarbeit\\thesis\\thesis.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -644,6 +688,15 @@
 	"selected_group": 0,
 	"settings":
 	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		]
 	},
 	"show_minimap": true,
 	"show_open_files": true,

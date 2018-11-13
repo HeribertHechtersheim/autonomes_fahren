@@ -1,1 +1,22 @@
 \section{Massenträgheitsmoment}
+\subsection{Theorie}
+Das Trägheitsmoment kann experimentell durch einen Pendelversuch bestimmt werden. 
+Für eine harmonische Schwingung kann die Auslenkung $x$ mit der Kreisfrequenz $\omega$ als Funktion der Zeit dargestellt werden:
+\[ \frac{d^2x}{dt^2}+\omega^2x=0.\]
+Das Drehmoment, das auf den Körper wirkt beträgt 
+\[M=-mgd = -mglsin(\varphi).\]
+In Verbindung mit \(M(t) = I\alpha(t)\) gilt \[ \frac{d^2\varphi}{dt^2}+\frac{mgl}{I}sin(\varphi)=0.\]
+Für kleine Winkel und der damit verbundenen Annahme \(sin(\varphi)\approx \varphi\) gilt \[\frac{d^2\varphi}{dt^2}+\frac{mgl}{I} \varphi =0.\]
+Damit ist  die Schwingungsdauer $T$  
+\[T=\frac{2\pi}{\omega} = 2\pi \sqrt{\frac{I}{mgl}}\] 
+und das Trägheitsmoment $I$ 
+\[I=\Big(\frac{T}{2\pi}\Big)^2mgl.\]
+
+\subsection{Praxisversuch}
+Das für den Pendelversuch verwendete Pendel besteht aus einer Holzplatte und einem Gestell. Das kombinierte Trägheitsmoment für Platte und Gestell bezüglich des gemeinsamen Schwerpunktes beträgt $0,057 kg m^2.$
+Die Schwingungsdauer $T$ mit montiertem Autos beträgt $1,3749s$, das Gesamtgewicht aus Holzplatte, Gestell und Auto ergibt sich zu $m_{ges}=0,846+1,152+2,26 = 4,258kg$. Die Pendellänge $l$ ist der Abstand  vom gemeinsamen Schwerpunkt zur Drehachse und beträgt  $0,383m.$   Daraus  ergibt sich ein Trägheitsmoment von 
+\[I_{ges} = \Big(\frac{1,3749}{2\pi}\Big)^2 \cdot 4,258 \cdot 9.81 \cdot 0.383 = 0,7662 kg m^2.\]
+Dieses ist das Trägheitsmoment  des kombinierten Körpers (Holzplatte, Gestell und Auto) bezüglich der Drehachse. Mit Hilfe des Steiner'schen Satzes kann die Bezugsachse in den gemeinsamen Schwerpunkt verschoben werden: 
+\[I_{ges,SP} = I_{ges} + m_{ges} \cdot l^2  \hspace{5mm} \rightarrow  \hspace{5mm} 0,7662 + 4,258 \cdot 0,383^2 = 1,39kgm^2.\] 
+Das Trägheitsmoment des Autos bezüglich des Schwerpunkts berechnet sich aus der Differenz des Gesamtträgheitsmoment und des Trägheitsmoment der Aufhängung:
+\[1,39-0,057 = 1,333 kgm^2.\]
