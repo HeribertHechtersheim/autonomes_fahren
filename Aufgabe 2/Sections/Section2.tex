@@ -1,1 +1,31 @@
 \section{Umrechnung der Pixelkoordinaten in Weltkoordinaten}
+
+Nachdem wir die Eckpunkte des gesuchten Rechtecks im Bild der Kamera gefunden haben, möchten wir nun die Orientierung $^A\xi_B$ des vorausfahrenden Autos $B$ gegenüber dem Auto $A$ bestimmen.
+Die Koordinatensysteme $\{A\}/\{B\}$ seien dafür mittig zwischen den Hinterrädern auf Höhe des Bodens plaziert, wobei die x-Achse in Fahrtrichtung und die z-Achse in den Himmel zeigt. Die Orientierung des Kamerakoordinatensystems $\{C\}$ zum Auto $A$ ist bekannt und wird mit $^A\xi_C$ bezeichnet. Außerdem ist die intrinsische Matrix $K$ der Kamera bekannt und hat folgende Form:
+\begin{equation*}
+K= \begin{pmatrix} f/\rho_\omega & 0 & u_0 \\ 0 & f/\rho_h & v_0 \\ 0 & 0 & 1 \\ \end{pmatrix}
+\end{equation*}
+Sei nun die homogene Pixelkoordinate $\tilde{p} = (u,v,1)^T$ eines Punktes gegeben und dessen homogene Koordinate $^A\tilde{P} = \lambda(X,Y,Z,1)^T, \lambda \in \mathbb{R}$ bezüglich des Autos $A$ gesucht. Durch $K$ und homogener Koordinatentransformationsmatrix ${^CT_A}$ von $^C\xi_A$ lässt sich folgende Gleichung aufstellen:
+\begin{equation*}
+\label{eq:problem}
+	\tilde{p} = K \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ \end{pmatrix} {^CT_A} ^A\tilde{P}
+\end{equation*}
+Durch die Rechtecksmatrix ist die Bestimmung von $^A\tilde{P}$ wegen dem unbekannten Faktor~$\lambda$ nicht eindeutig möglich:
+\begin{equation}
+\label{eq:^A_P}
+	{^AT_C} \begin{pmatrix} K^{-1}\tilde{p} \\ \lambda \end{pmatrix} = {^A\tilde{P}}
+\end{equation}
+Deswegen benutzen wir zusätzlich die Annahme, dass die Höhe $Z$ des Punktes bekannt ist und können die dritte Zeile der Gleichung nach $\lambda$ umformen:
+\begin{equation*}
+	\lambda = \frac{e_3^T{^AT_C} K^{-1}\tilde{p}}{Z - {(^AT_C)}_{3,4}}
+\end{equation*}
+Dies setzte vorraus, dass die Höhe $Z$ des Punktes nicht mit der Höhe der Kamera ${(^AT_C)}_{3,4}$ übereinstimmt. Nachdem $\lambda$ errechnet worden ist, kann $^A\tilde{P}$ durch Gleichung~\ref{eq:^A_P} berechnet werden.
+
+Unter der Annahme, dass das Auto A in der gleichen Ebene wie das Auto B liegt und wir zwei Punkte $\tilde{p}_1$ und $\tilde{p}_2$ mit der Kamera erkannt haben, von denen wir die Koordinaten $^B\tilde{P}_1$ und $^B\tilde{P}_2$ bezüglich $\{B\}$ kennen, kann nun $^A\xi_B$ bestimmt werden. In unserer Implementierung benutzen wir hierfür die unteren beiden Eckpunkte des Roten Rechtecks.
+
+Um die Annahme der gleichen Ebene zu vermeiden, kann auch ein Gleichungssystem für mehrere Punkte durch Gleichung~\ref{eq:problem} und deren Koordinaten bezüglich $\{B\}$ ausgestellt werden. Dies erfordert aber eine aufwändigere Betrachtung der eindeutigen Lösbarkeit.
+% p = p(:);
+% g = K\[p;1];
+% lambda = T(3,1:3)*g/(z-T(3,4));
+% P = T(1:3,:)*[g/lambda; 1];
+
