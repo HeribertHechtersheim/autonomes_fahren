@@ -111,24 +111,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/C/Users/Herib/Downloads/sender.lco",
-			"settings":
-			{
-				"buffer_size": 1761,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/Herib/Documents/Uni/autonomes_fahren/Aufgabe 2/aufgabe1.sublime-project",
-			"settings":
-			{
-				"buffer_size": 107,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -247,6 +229,9 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Herib/Documents/Uni/autonomes_fahren/Aufgabe 2/aufgabe1.sublime-project",
+		"/C/Users/Herib/Documents/Uni/autonomes_fahren/Aufgabe 2/Aufgabe2_Gruppe04.tex",
+		"/C/Users/Herib/Downloads/sender.lco",
 		"/C/Users/Herib/Documents/Uni/autonomes_fahren/Aufgabe 2/aufgabe1.sublime-workspace",
 		"/C/Users/Herib/Documents/Uni/autonomes_fahren/Aufgabe1/Aufgabe1_Gruppe04.tex",
 		"/C/Users/Herib/Documents/Uni/autonomes_fahren/Aufgabe1/Sections/Section1.tex",
@@ -362,66 +347,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/Users/Herib/Downloads/sender.lco",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1761,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1623,
-								1623
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/Herib/Documents/Uni/autonomes_fahren/Aufgabe 2/aufgabe1.sublime-project",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 107,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								85,
-								85
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
