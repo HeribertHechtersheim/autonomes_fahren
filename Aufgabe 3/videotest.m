@@ -1,6 +1,6 @@
 %% video 1
 load('vout.mat')
-for i=50:80
+for i=1:31
    I=vout(:,:,i)';
    I=imresize(I,3280/800);
    B=birdeyetransform(I); 
