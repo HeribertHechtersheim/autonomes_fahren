@@ -219,8 +219,8 @@ for i=startframe+1:size(vout,3)
     
     
     %update position
-    x(i)=best_x_coarse;
-    y(i)=best_y_coarse;
+    x(i)=best_x;
+    y(i)=best_y;
     angle(i)=best_angle_coarse;
     error(i)=overlapHighscore;
     overlapHighscore
