@@ -15,7 +15,7 @@ Dabei wurden für das Auto folgende Annahmen getroffen:
  	\item Bei jedem Berechnungsschritt stehen dem Auto fehlerbehaftete Odometriedaten (Geschwindigkeit und Lenkwinkel) zur Verfügung, wobei der Fehler normalverteilt ist und die Varianz bekannt ist
  	\item ist ein Marker im Sichtfeld der Kamera des Autos, so kann das Auto Abstand und Winkel zum Marker bestimmen. Diese Sensordaten sind auch mit einem normalverteilten Fehler behaftet, dessen Varianz bekannt ist.
 \end{itemize}
-Für die Simulation wurde ein "Driver" Objekt für die Robotics Toolbox implementiert, welches das Auto auf dem Kurs hält. Außerdem wurden einige Klassen modifiziert, damit beliebige Strecken und Anordnungen von Markern gewählt werden können.
+Für die Simulation wurde ein "{}Driver"{} Objekt für die Robotics Toolbox implementiert, welches das Auto auf dem Kurs hält. Außerdem wurden einige Klassen modifiziert, damit beliebige Strecken und Anordnungen von Markern gewählt werden können.
 
 Qualitativ beschrieben läuft die Simulation folgendermaßen ab:
 Das Auto bewegt sich bei jedem Rechenschritt mit konstanter Geschwindigkeit und wird so gelenkt, dass es der Spur folgt. Gleichzeitig wird ein Prädiktionsschritt mit den Odometriedaten durchgeführt - die Orientierung des Autos und damit der Verlauf der Strecke wird durch Koppelnavigation (engl. dead reckoning) geschätzt.
