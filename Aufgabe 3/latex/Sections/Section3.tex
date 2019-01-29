@@ -5,3 +5,38 @@ Die Spurerkennung  lassen wir nun auf einem variablen Streifen des Bildes durchf
 Zusätzlich haben wir den maximal möglichen Lenkwinkel erhöht und berücksichtigen ihn, um die Geschwindigkeit des Autos zu verändern. 
 Bei einem großen Winkel wird die Geschwindigkeit gedrosselt, während  die Geschwindigkeit erhöht wird, wenn der Winkel gering ist.
 Dies resultiert in einer höheren Geschwindigkeit auf geraden Strecken.
+
+%\begin{center}
+%\resizebox{.9\textwidth}{!}{%
+%\includegraphics[height=3cm]{Bildbild.jpg}%
+%\caption{Text}
+%\quad
+%\includegraphics[height=3cm]{vogel2.png}%
+%}
+%\end{center}
+
+\begin{figure}[htp]
+
+% preliminary
+\sbox\twosubbox{%
+  \resizebox{\dimexpr.9\textwidth-1em}{!}{%
+    \includegraphics[height=3cm]{Bildbild.jpg}%
+    \includegraphics[height=3cm]{Bildbild.jpg}%
+  }%
+}
+\setlength{\twosubht}{\ht\twosubbox}
+
+% typeset
+
+\centering
+
+\subcaptionbox{Kamerabild}{%
+  \includegraphics[height=\twosubht]{Bildbild.jpg}%
+}\quad
+\subcaptionbox{Transformation in die Vogelperspektive}{%
+  \includegraphics[height=\twosubht]{vogel2.png}%
+}
+
+%\caption{The caption}
+
+\end{figure}

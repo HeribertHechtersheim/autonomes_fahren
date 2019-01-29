@@ -15,6 +15,7 @@
 \usepackage{hyperref}
 \usepackage{multirow}
 \usepackage{graphicx}
+\usepackage{subcaption}
 \usepackage{setspace}
 \usepackage{wrapfig}
 \makeatletter
@@ -23,9 +24,12 @@
 \usepackage[utf8]{inputenc}
 %ende 1
 
+\newlength{\twosubht}
+\newsavebox{\twosubbox}
+
 \begin{document}
 
-\title{Aufgabe 2}
+\title{Aufgabe 3}
 \subtitle{Gruppe 4}
 \author{
   Jonas Eckhoff
@@ -40,8 +44,8 @@
 \publishers{%
     \normalfont\normalsize%
     \parbox{0.8\linewidth}{
-    Zum Abschluss des Kurses soll ein frei gewähltes Projekt ausgearbeitet und vorgestellt werden. Im unserem Abschlussprojekt soll das Auto auf einer unbekannten Strecke fahren und eine Karte der Umgebung erstellen.
-    Außerdem haben wir einen Spurhalteregler entwickelt, der einen Rundkurs möglichst schnell durchfahren soll.
+    Zum Abschluss des Kurses soll ein frei gewähltes Projekt ausgearbeitet und vorgestellt werden. In unserem Abschlussprojekt soll das Auto auf einer unbekannten Strecke fahren und eine Karte der Umgebung erstellen.
+    Außerdem haben wir den Spurhalteregler verbessert, der einen Rundkurs möglichst schnell durchfahren soll.
     }
 }
 

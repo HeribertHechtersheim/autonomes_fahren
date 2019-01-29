@@ -1,6 +1,9 @@
 \subsection{Implementation}
 
-Um eine Karte von einem Gebiet $ \Omega \subset \mathbb{R}^2$ zu erstellen, fährt das Auto auf einer Strecke mit konstanter, vorher definierter Geschwindigkeit $v$. Dabei kann das Auto mittels einer implementierten Spurverfolgung autonom oder manuell durch eine externe Lenkung fahren. Während der Fahrt werden die Bilder der Kamera aufgenommen sowie die Winkelbeschleunigung um die $z$-Achse. Am Ende der Fahrt wird iterativ eine geschätzte Postion des Autos in der Welt zu jedem Zeitpunkt berechnet.
+Um eine Karte von einem Gebiet $ \Omega \subset \mathbb{R}^2$ zu erstellen, fährt das Auto auf einer Strecke mit konstanter, vorher definierter Geschwindigkeit $v$. Dabei kann das Auto mittels einer implementierten Spurverfolgung autonom oder manuell durch eine externe Lenkung fahren. 
+Während der Fahrt werden sowohl die Bilder der Kamera 
+als auch die Winkelbeschleunigung um die $z$-Achse 
+aufgenommen. Am Ende der Fahrt wird iterativ eine geschätzte Postion des Autos in der Welt zu jedem Zeitpunkt berechnet.
 
 Die Position und Orientierung des Autos lassen sich mit den Weltkoordinaten $x,y$ und einem Winkel $\phi$ beschreiben. Die Startwerte $x(0),y(0)$ und $\phi(0)$ können beliebig gewählt werden. Um nun die nächste Orientierung zu berechnen, wird zu erst die Winkelgeschwindigkeit $\omega$ und die konstante Geschwindigkeit $v$ verwendet.
 $$
