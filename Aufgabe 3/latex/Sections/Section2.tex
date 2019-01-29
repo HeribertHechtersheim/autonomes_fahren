@@ -5,7 +5,7 @@ Während der Fahrt werden sowohl die Bilder der Kamera
 als auch die Winkelbeschleunigung um die $z$-Achse 
 aufgenommen. Am Ende der Fahrt wird iterativ eine geschätzte Postion des Autos in der Welt zu jedem Zeitpunkt berechnet.
 
-Die Position und Orientierung des Autos lassen sich mit den Weltkoordinaten $x,y$ und einem Winkel $\phi$ beschreiben. Die Startwerte $x(0),y(0)$ und $\phi(0)$ können beliebig gewählt werden. Um nun die nächste Orientierung zu berechnen, wird zu erst die Winkelgeschwindigkeit $\omega$ und die konstante Geschwindigkeit $v$ verwendet.
+Die Position und Orientierung des Autos lassen sich mit den Weltkoordinaten $x,y$ und einem Winkel $\phi$ beschreiben. Die Startwerte $x(0),y(0)$ und $\phi(0)$ können beliebig gewählt werden. Um nun die nächste Orientierung zu berechnen, wird zuerst die Winkelgeschwindigkeit $\omega$ und die konstante Geschwindigkeit $v$ verwendet.
 $$
 \begin{aligned}
 \phi(i+1)&=\phi(i)+\omega(i)\\
