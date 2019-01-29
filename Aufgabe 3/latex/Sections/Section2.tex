@@ -15,7 +15,31 @@ y(i+1)&=y(i)+\sin(\phi(i))\cdot v
 $$
 
 \hspace{-12mm}
-\includegraphics[scale=1]{vogel.png}
+\begin{figure}[htp]
+
+% preliminary
+\sbox\twosubbox{%
+  \resizebox{\dimexpr.9\textwidth-1em}{!}{%
+    \includegraphics[height=3cm]{Bildbild.jpg}%
+    \includegraphics[height=3cm]{Bildbild.jpg}%
+  }%
+}
+\setlength{\twosubht}{\ht\twosubbox}
+
+% typeset
+
+\centering
+
+\subcaptionbox*{Kamerabild}{%
+  \includegraphics[height=\twosubht]{Bildbild.jpg}%
+}\quad
+\subcaptionbox*{Transformation in die Vogelperspektive}{%
+  \includegraphics[height=\twosubht]{vogel2.png}%
+}
+
+%\caption{The caption}
+
+\end{figure}
 
 
 Dies ist eine gute erste Schätzung für die tatsächliche Position. Mithilfe der Videodaten soll diese Schätzung nun verbessert werden. Im ersten Schritt wird dazu jedes Bild des Videos in die Vogelperspektive transformiert. Dies hat den Vorteil, dass eine Draufsicht erzeugt wird, in der Abstände in der realen Welt linear vom Pixelabstand abhängen, solange sie in der Ebene liegen. Sei nun 
@@ -26,12 +50,63 @@ Dieses Problem lösen wir nun durch Diskretisierung bei der wir die zuvor gesch�
 
 
 \hspace{-10mm}
-\includegraphics[scale=1]{3456.png}
+%\includegraphics[scale=1]{3456.png}
+\begin{figure}[htp]
 
+% preliminary
+\sbox\twosubbox{%
+  \resizebox{\dimexpr.9\textwidth-1em}{!}{%
+    \includegraphics[height=3cm]{12.png}%
+    \includegraphics[height=3cm]{Satellitenbild.png}%
+  }%
+}
+\setlength{\twosubht}{\ht\twosubbox}
+
+% typeset
+
+\centering
+
+\subcaptionbox*{Kamerabild}{%
+  \includegraphics[height=\twosubht]{12.png}%
+}\quad
+\subcaptionbox*{errechnetes "{}Satellitenbild"{}}{%
+  \includegraphics[height=\twosubht]{Satellitenbild.png}%
+}
+
+%\caption{The caption}
+
+\end{figure}
+
+%\includegraphics[scale=1]{3456.png}
+\begin{figure}[htp]
+
+% preliminary
+\sbox\twosubbox{%
+  \resizebox{\dimexpr.9\textwidth-1em}{!}{%
+    \includegraphics[height=3cm]{fehler.png}%
+    \includegraphics[height=3cm]{karte.png}%
+  }%
+}
+\setlength{\twosubht}{\ht\twosubbox}
+
+% typeset
+
+\centering
+
+\subcaptionbox*{Variationsfehler $E_i$}{%
+  \includegraphics[height=\twosubht]{fehler.png}%
+}\quad
+\subcaptionbox*{Fertige Karte}{%
+  \includegraphics[height=\twosubht]{karte.png}%
+}
+
+%\caption{The caption}
+
+\end{figure}
 
 
 \subsection{Ausblick}
 Für die Zukunft kann eine Fahrt mit gut sichtbaren Makern realisiert werden. Mit den bekannten Markerpositionen kann die vorher bestimmte geschätzte Autoposition verglichen werden. Durch einen solchen Vergleich kann ein zuvor entstandener aufsummierter Fehler minimiert werden. \\
-Des Weiteren kann durch einen Plattformwechsel (Python oder Robot Operating System (ROS)) die allgemeine Performace verbessert werden.  So führt eine höhere Kameraauflösung zu einer genaueren Kartenerstellung. Außerdem könnte über eine drahtlose Verbindung zu einem PC eine Karte in Echtzeit generiert werden.   \\
+Des Weiteren kann durch einen Plattformwechsel (Python oder Robot Operating System (ROS)) die allgemeine Performance verbessert werden.  So führt eine höhere Kameraauflösung zu einer genaueren Kartenerstellung. Außerdem könnte über eine drahtlose Verbindung zu einem PC eine Karte in Echtzeit generiert werden.   \\
 Mit einer verbesserten Kartengenauigkeit kann das Auto nach einer ersten erfolgreich gefahrenen Runde die gesammelten Daten für die eigene Navigation nutzen. Dafür muss die aktuelle geschätzte Position mit der bestehenden Karte abgeglichen und ggf. korrigiert werden.\\
 

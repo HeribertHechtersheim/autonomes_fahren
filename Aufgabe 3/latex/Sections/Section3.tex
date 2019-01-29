@@ -15,28 +15,3 @@ Dies resultiert in einer höheren Geschwindigkeit auf geraden Strecken.
 %}
 %\end{center}
 
-\begin{figure}[htp]
-
-% preliminary
-\sbox\twosubbox{%
-  \resizebox{\dimexpr.9\textwidth-1em}{!}{%
-    \includegraphics[height=3cm]{Bildbild.jpg}%
-    \includegraphics[height=3cm]{Bildbild.jpg}%
-  }%
-}
-\setlength{\twosubht}{\ht\twosubbox}
-
-% typeset
-
-\centering
-
-\subcaptionbox{Kamerabild}{%
-  \includegraphics[height=\twosubht]{Bildbild.jpg}%
-}\quad
-\subcaptionbox{Transformation in die Vogelperspektive}{%
-  \includegraphics[height=\twosubht]{vogel2.png}%
-}
-
-%\caption{The caption}
-
-\end{figure}
