@@ -1,5 +1,20 @@
 \section{Kartenerstellung}
 
+Die ursprüngliche Idee unseres Projektes war folgende: Das Auto sollte einen unbekannten Rundkurs durchfahren und eine Karte der Strecke erstellen. Zur Unterstützung der Positionsbestimmung werden Marker plaziert, deren Position oder Abstand entlag der Strecke dem Auto bekannt oder unbekannt sind.
+Nach der Durchfahrung könnte das Auto anhand der Karte eine Trajektorie zur Durchfahrung des Rundkurses berechnen, bei dem das Auto den Kurs in minimaler Zeit durchfährt und sich dabei gegebenenfalls noch an Verkehrsregeln wie zum Beispiel Geschwindigkeitsbegrenzungen hält, welche als Schilder von der Kamera des Autos wargenommen wurden.
+Abschließend soll das Auto die berechnete Trajektorie abfahren.
+
+Da der Umfang des Projektes ziemlich groß ist, haben wir uns fürs erste nur auf die Kartenerstellung eines unbekannten Rundkurses beschränkt und dabei verschiedene Verfahren getestet:
+
+\subsection{Meilenstein 1 - Computersimulation}
+
+Für unseren ersten Meilenstein wurde ein Kreis als unbekannte Strecke betrachtet. Mithilfe von Matlab und der Robotics Toolbox von Peter Corke sollte die Testfahrt simuliert werden und die Karte während der Durchfahrung durch den Extended Kalman Filter berechnet werden.
+Dabei wurden für das Auto folgende Annahmen getroffen:
+\begin{itemize}
+ 	\item Das Auto kennt die genaue Position der Marker
+ 	\item Bei jedem Berechnungsschritt stehen dem Auto fehlerbehaftete Odometriedaten (Geschwindigkeit und Lenkwinkel) zur Verfügung, wobei der Fehler normalverteilt ist und die Varianz bekannt ist
+ 	\item ist ein Marker im Sichtfeld der Kamera des Autos, so kann das Auto Abstand und Winkel zum Marker bestimmen. Diese Daten sind auch mit einem normalverteilten Fehler behaftet, dessen Varianz bekannt ist.
+\end{itemize}
+Für die Simulation wurden einige Klassen der Robotics Toolbox modifizert, um 
 
 
-\subsection{Computersimulation}
